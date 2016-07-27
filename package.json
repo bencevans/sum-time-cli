@@ -1,0 +1,34 @@
+{
+  "name": "sum-time-cli",
+  "version": "0.0.0",
+  "description": "Sum up time durations in terminal",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/sum-time-cli.git"
+  },
+  "keywords": [
+    "sum",
+    "time",
+    "duration",
+    "calc",
+    "calculator",
+    "cli"
+  ],
+  "bin": {
+    "sum-time": "./cli.js"
+  },
+  "author": "Ben Evans <ben@bensbit.co.uk> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/sum-time-cli/issues"
+  },
+  "homepage": "https://github.com/bencevans/sum-time-cli#readme",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "sum-time": "^1.0.0"
+  }
+}
